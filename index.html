@@ -4,93 +4,113 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Santhosh S | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+</header>
+<section class="hero">
+  <h2>Hi,I'm<span>Santhosh S</span></h2>
+  <p>
+<nav class="navbar">
+  <a href="#about"> About</a>
+  <a href="#skills"> Skills</a>
+  <a href="#projects"> Projects</a>
+  <a href="#education"> Education</a>
+  <a href="#contact"> Contact</a>
+</nav>
+<header class="hero">
+  <h1>Santhosh S</h1>
+  <p>Computer Science Student • Aspiring Cloud Engineer</p>
+</header>
+<a 
+href="assets/Santhosh_Resume.pdf"
+class="Resume-btn"
+target="_blank"
+download
+>
+Download Resume
+</a>
+</section>
+<main>
 
-  <header>
-    <h1>Santhosh S</h1>
-    <p>Computer Science Student | Aspiring Cloud Engineer</p>
-  </header>
+<section id="about" class="card">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate Computer Science student focused on cloud technologies,
+    automation, and modern web development. I enjoy building scalable and
+    practical solutions using AWS.
+  </p>
+</section>
 
-  <section>
-    <h2>About Me</h2>
+<section id="skills" class="card">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <span>Python</span>
+    <span>Java</span>
+    <span>C</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>AWS S3</span>
+    <span>AWS IAM</span>
+    <span>CloudFront</span>
+    <span>Linux</span>
+    <span>Git & GitHub</span>
+  </div>
+</section>
+
+<section id="projects" class="card">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>AI Resume Scanner</h3>
     <p>
-      Motivated and detail-oriented Computer Science student with a strong
-      passion for programming, automation, and cloud technologies.
-      Skilled in Python, C, Java, and AWS fundamentals.
+      AI-powered system that scans resumes, extracts information,
+      and matches candidates with job descriptions.
     </p>
-  </section>
+    <span class="tag">NLP</span>
+    <span class="tag">Machine Learning</span>
+  </div>
+</section>
 
-  <section>
-    <h2>Skills</h2>
-    <ul class="skills">
-      <li>Python</li>
-      <li>C</li>
-      <li>Java</li>
-      <li>HTML & CSS</li>
-      <li>AWS (S3, IAM, CloudFront)</li>
-      <li>Linux</li>
-      <li>Git & GitHub</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>AI Resume Scanner</h3>
-      <p>
-        An AI-based system that analyzes resumes, extracts key information,
-        and matches candidates with job descriptions.
-      </p>
-      <p><strong>Technologies:</strong> NLP, OCR, Machine Learning</p>
+<section id="education" class="card">
+  <h2>Education</h2>
+  <div class="timeline">
+    <div>
+      <h3>B.E. Computer Science Engineering</h3>
+      <p>St. Joseph’s Institute of Technology, Chennai</p>
+      <small>2024 – 2028 | CGPA: 8.1</small>
     </div>
-
-    <div class="project">
-      <h3>AWS Portfolio Website</h3>
-      <p>
-        Designed and deployed a static portfolio website using
-        Amazon S3 and CloudFront.
-      </p>
-      <p><strong>Technologies:</strong> HTML, CSS, AWS S3, CloudFront</p>
+    <div>
+      <h3>High School</h3>
+      <p>ARLM Matric Higher Secondary School, Cuddalore</p>
+      <small>2023 – 2024</small>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section>
-    <h2>Education</h2>
-    <p><strong>B.E. Computer Science Engineering</strong> (2024 – 2028)</p>
-    <p>St. Joseph’s Institute of Technology, Chennai</p>
-    <p>Current CGPA: 8.1</p>
-  </section>
+<section id="contact" class="card">
+  <h2>Contact</h2>
+  <p>📧 santhoshsanthakumar47@gmail.com</p>
+  <p>📞 +91 84382 59681</p>
+  <p>📍 Cuddalore, Tamil Nadu</p>
+  <p>
+    🔗 <a href="https://www.linkedin.com/in/santhosh-s-18716a333/" target="_blank">
+      LinkedIn Profile
+    🔗 <a href="https://github.com/santhosh1406-collab/santhosh-aws-s3-portfolio"
+     target="_blank" class="btn">
+      GitHub Profile
+  </a>
+</div>
+    </a>
+  </p>
+</section>
 
-  <section>
-    <h2>Certifications & Courses</h2>
-    <ul>
-      <li>AWS Academy – Cloud Foundations</li>
-      <li>AWS Academy – AI Foundations</li>
-      <li>Infosys – Object Oriented Programming using Python</li>
-      <li>Cisco – Networking Basics</li>
-      <li>Cisco – Linux Unhatched</li>
-    </ul>
-  </section>
+</main>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Email: santhoshsanthakumar47@gmail.com</p>
-    <p>GitHub:https://github.com/santhosh1406-collab</p>
-    <p>LinkedIn:https://www.linkedin.com/in/santhosh-s</p>
-    <p>
-       Resume:
-       <a href="assets/Santhosh_Resume.pdf"target="_blank">
-        Download pdf
-       </a>
-    </p>
-    <p>Location: Cuddalore, Tamil Nadu</p>
-  </section>
-
-  <footer>
-    <p>© 2025 Santhosh S</p>
-  </footer>
+<footer>
+  <p>© 2025 Santhosh S</p>
+</footer>
 
 </body>
 </html>
